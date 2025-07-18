@@ -20,7 +20,7 @@ function getRandomNumber(a, b) {
 }
 
 function getRandom(anyAray){
-  let max = anyAray.length - 1;
+  let max = anyAray.length;
   let min = 0;
   let random = getRandomNumber (min, max);
   return anyAray[random];
